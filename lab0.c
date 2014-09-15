@@ -58,7 +58,6 @@ _CONFIG2( IESO_OFF & SOSCSEL_SOSC & WUTSEL_LEG & FNOSC_PRIPLL & FCKSM_CSDCMD & O
 
 #define BAUDRATE         115200       
 #define BRGVAL          ((FCY/BAUDRATE)/16)-1 
-#define SMALL_NUMBER 300
 
 // ******************************************************************************************* //
 
